@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  min-height: 1600px;
 }
 
 a {
@@ -30,6 +29,8 @@ header {
 }
 
 header .cep {
+  font-family: 'Roboto';
+  font-weight: 500;
   font-size: 16px;
   color: #06277B;
   display: flex;
@@ -95,6 +96,7 @@ form > button {
 }
 
 header .botao {
+  font-family: 'Poppins', monospace;
   font-size: 20px;
   background-color: #23E7D7;
   padding: 9px 20px;
@@ -124,6 +126,8 @@ header .svg {
 /* NAV */
 
 nav .categorias {
+  font-family: 'Poppins' monospace;
+  font-weight: 500;
   background-color: #1348CE;
   display: flex;
   justify-content: center;
@@ -162,6 +166,8 @@ nav li a:hover {
 /* MAIN */
 
 main {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 500;
   margin: 80px 94px;
   border-radius: 5px;
   background-color: #1348CE;
@@ -237,6 +243,8 @@ main img {
 /* DECORAÇÃO */
 
 .produtos-oferta {
+  font-family: 'Roboto';
+  font-weight: 500;
   color: #06277B;
   text-transform: uppercase;
   display: flex;
@@ -249,7 +257,7 @@ main img {
   display: block;
   width: 800px;
   height: 2px;
-  top: 12px;
+  top: 8px;
   left: 1060px;
   background-color: #DFDFDF;
   position: absolute;
@@ -260,7 +268,7 @@ main img {
   display: block;
   width: 800px;
   height: 2px;
-  top: 12px;
+  top: 8px;
   right: 1060px;
   background-color: #DFDFDF;
   position: absolute;
@@ -271,7 +279,7 @@ main img {
 .section {
   display: flex;
   overflow-x: auto;
-  padding-bottom: 40px;
+  padding-bottom: 40px; 
 }
 
 .bloco-itens {
@@ -303,17 +311,32 @@ main img {
 }
 
 .painel-preco {
+  font-family: 'Roboto';
+  font-weight: 400;
   padding-top: 10px;
   margin-left: 10px;
 }
 
 .painel-preco a h2 {
+  font-weight: 500;
   color: #000;
   font-size: 14px;
 }
 
 .painel-preco span {
+  color: #7A7A7A;
   font-size: 12px;
+  position: relative;
+}
+
+.painel-preco span::after {
+  content: '';
+  width: 65px;
+  height: 2px;
+  top: 6px;
+  background-color: #7a7a7a;
+  display: block;
+  position: absolute;
 }
 
 .painel-preco .preco-principal {
@@ -322,4 +345,17 @@ main img {
 
 .painel-preco .preco-parcelado {
   font-size: 10px;
+}
+
+/* FOOTER */
+
+footer p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  background-color: #1348CE;
+  color: #F2FFFE;
+  padding: 60px;
 }
