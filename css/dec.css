@@ -1,0 +1,31 @@
+.produtos-oferta {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #06277B;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.produtos-oferta::after {
+  content: '';
+  display: block;
+  width: 800px;
+  height: 2px;
+  top: 8px;
+  left: 1060px;
+  background-color: #DFDFDF;
+  position: absolute;
+}
+
+.produtos-oferta::before {
+  content: '';
+  display: block;
+  width: 800px;
+  height: 2px;
+  top: 8px;
+  right: 1060px;
+  background-color: #DFDFDF;
+  position: absolute;
+}

@@ -1,0 +1,32 @@
+main {
+  margin-bottom: 80px;
+  padding: 50px 0px;
+  background-color: #082249;
+}
+
+.img-promocoes {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.clickCirculo {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.circulo {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.circulo:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  background-color: #fff;
+}

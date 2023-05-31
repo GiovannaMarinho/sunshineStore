@@ -1,0 +1,70 @@
+.section {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 40px; 
+}
+
+.bloco-itens {
+  border-left: 2px solid #d7d7d7;
+  border-top: 2px solid #d7d7d7;
+  border-right: 2px solid #d7d7d7;
+  border-radius: 5px 5px 0 0;
+  margin-top: 84px;
+  margin-left: 82px;
+  width: 215px;
+  height: 240px;
+  font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+
+.bloco-itens img {
+  border-radius: 5px 5px 0 0;
+}
+
+.bloco-painel-preco {
+  border-left: 2px solid #d7d7d7;
+  border-bottom: 2px solid #d7d7d7;
+  border-right: 2px solid #d7d7d7;
+  margin-left: 82px;
+  padding-bottom: 15px;
+  width: 215px;
+  height: 80px;
+  border-radius: 0 0 5px 5px;
+  line-height: 20px;
+}
+
+.painel-preco {
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.painel-preco a h2 {
+  font-weight: 500;
+  color: #000;
+  font-size: 14px;
+}
+
+.painel-preco span {
+  color: #7A7A7A;
+  font-size: 12px;
+  position: relative;
+}
+
+.painel-preco span::after {
+  content: '';
+  width: 65px;
+  height: 2px;
+  top: 6px;
+  background-color: #7a7a7a;
+  display: block;
+  position: absolute;
+}
+
+.painel-preco .preco-principal {
+  font-size: 18px;
+}
+
+.painel-preco .preco-parcelado {
+  font-size: 10px;
+}
