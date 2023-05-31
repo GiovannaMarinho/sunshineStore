@@ -1,0 +1,109 @@
+header {
+  background-color: #f4fffe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.link-header {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.link-header:hover {
+  color: #000;
+}
+
+form {
+  border: 1px solid #06277b;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+  background-color: #fff;
+  display: inline-block;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+form::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 42px;
+  background-color: #06277b;
+  right: 55px;
+  position: absolute;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+form > input {
+  border: none;
+  width: 900px;
+  height: 30px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+form > button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.icones-header {
+  display: flex;
+  gap: 20px;
+}
+
+@media (min-width: 2193px) {
+  header {
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1620px) {
+  form > input {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1510px) {
+  form > input {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1348px) {
+  form > input {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1215px) {
+  form > input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1150px) {
+  form > input {
+    width: auto;
+  }
+}

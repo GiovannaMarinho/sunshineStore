@@ -1,0 +1,44 @@
+.font-cep {
+  font: 500 16px 'Poppins';
+}
+
+.font-botao {
+  font: 500 20px 'Poppins';
+}
+
+.font-1-nav {
+  font: 500 14px 'Poppins';
+}
+
+.font-1-main {
+  font: 700 24px 'Roboto';
+}
+
+.font-2-main {
+  font: 700 96px 'Roboto';
+}
+
+.font-3-main {
+  font: 700 32px 'Roboto';
+}
+
+.font-decoracao {
+  font: 500 16px 'Roboto';
+  text-transform: uppercase;
+}
+
+.font-1-section {
+  font: 500 14px 'Roboto';
+}
+
+.font-2-section {
+  font: 400 14px 'Roboto';
+}
+
+.font-3-section {
+  font: 500 18px 'Roboto';
+}
+
+.font-4-section {
+  font: 400 10px 'Roboto';
+}

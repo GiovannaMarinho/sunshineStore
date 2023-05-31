@@ -1,0 +1,32 @@
+.categorias {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.corMudar:hover {
+  transition: .2s;
+  color: rgba(0, 0, 0, .6);
+}
+
+.todasCategorias {
+  position: relative;
+}
+
+.todasCategorias::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background: url('../icons/seta.svg') no-repeat;
+  width: 30px;
+  height: 30px;
+  top: 8px;
+  right: -35px;
+}
+
+@media (max-width: 820px) {
+  .categorias {
+    gap: 40px;
+  }
+}

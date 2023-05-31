@@ -10,38 +10,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header class="header">
-    <a class="logo" href="#"><img src="./img/sunshine-store.svg" alt="Sunshine store"></a>
+  <header>
+    <img src="./img/sunshine-store.svg" alt="Sunshine Store">
 
-    <a class="cep" href="#">Digite seu<br> CEP<img src="./icons/cep.svg"></a>
+    <a class="link-header font-cep cor-1-letra" href="#"><img src="" alt="">Digite seu <br>CEP <img src="./icons/cep.svg" alt="CEP"></a>
 
-    <form action='/' method='post'>
-      <input type='text' name='pesquisa' placeholder='Pesquisar'>
-      <button type='submit'><img src="./icons/search.svg" alt="Pesquisar"></button>
+    <form action="/" method="post">
+      <input type="text" name="pesquisa" placeholder="Pesquisar">
+      <button type="submit"><img src="./icons/search.svg" alt="Procurar"></button>
     </form>
 
-    <a class="botao" href="#"><img src="./icons/person.svg">Entrar</a>
+    <button class="botao font-botao"><img src="./icons/person.svg" alt="Pessoa">Entrar</button>
 
-    <nav>
-      <ul class="fav-car">
-        <li class="svg"><a href="#"><img src="./icons/favorite.svg" alt="Favorito"></a></li>
-        <li class="svg"><a href="#"><img src="./icons/shopping-cart.svg" alt="Carrinho"></a></li>
-      </ul>
-    </nav>
+    <ul class="icones-header">
+      <li><img src="./icons/favorite.svg" alt="Favorito"></li>
+      <li><img src="./icons/shopping-cart.svg" alt="Carrinho"></li>
+    </ul>
   </header>
 
-  <nav>
+  <nav class="cor-2-bg font-1-nav">
     <ul class="categorias">
-      <li><a class="todasCategorias" href="#">Todas as categorias</a></li>
-      <li><a href="#">Promoções</a></li>
-      <li><a href="#">Pets</a></li>
-      <li><a href="#">Infantil</a></li>
-      <li><a href="#">Lazer</a></li>
-      <li><a href="#">Moda</a></li>
+      <li><a class="corMudar todasCategorias cor-2-letra" href="#">Todas as categorias</a></li>
+      <li><a class="corMudar cor-2-letra" href="#">Promoções</a></li>
+      <li><a class="corMudar cor-2-letra" href="#">Pets</a></li>
+      <li><a class="corMudar cor-2-letra" href="#">Infantil</a></li>
+      <li><a class="corMudar cor-2-letra" href="#">Lazer</a></li>
+      <li><a class="corMudar cor-2-letra" href="#">Moda</a></li>
     </ul>
   </nav>
 

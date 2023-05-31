@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.botao {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+  display: flex;
+  gap: 5px;
+  padding: 10px 20px;
+  background-color: #23e7d7;
+  color: #343434;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #16c5b6;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
