@@ -1,31 +1,25 @@
-.produtos-oferta {
-  font-family: 'Roboto';
-  font-weight: 500;
-  color: #06277B;
-  text-transform: uppercase;
+.decoracao-oferta {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-.produtos-oferta::after {
+.decoracao-oferta::before {
   content: '';
-  display: block;
-  width: 800px;
-  height: 2px;
-  top: 8px;
-  left: 1060px;
-  background-color: #DFDFDF;
   position: absolute;
+  display: block;
+  top: -10px;
+  height: 2px;
+  width: 3000px;
+  background-color: #f3f3f3;
 }
 
-.produtos-oferta::before {
+.decoracao-oferta::after {
   content: '';
-  display: block;
-  width: 800px;
-  height: 2px;
-  top: 8px;
-  right: 1060px;
-  background-color: #DFDFDF;
   position: absolute;
+  display: block;
+  bottom: -10px;
+  height: 2px;
+  width: 3000px;
+  background-color: #f3f3f3;
 }
